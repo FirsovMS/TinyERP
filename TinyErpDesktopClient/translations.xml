@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Translations>
+  <Language lang="eng">
+    <Translate key="##MAIN_WINDOW_NOT_CREATED">MainWindow can't be created!</Translate>
+    <Translate key="##APP_NOT_CREATED">Application not created!</Translate>
+    <Translate key="##SEE_LOG">See the log inforamtion.</Translate>
+    <Translate key="##STARTUP_ERROR">Startup error!</Translate>
+    <Translate key="##ERROR_1">Error occured:\n{0}</Translate>
+  </Language>
+  <Language lang="rus">
+    <Translate key="##MAIN_WINDOW_NOT_CREATED">Главное окно не было создано</Translate>
+    <Translate key="##APP_NOT_CREATED">Приложение не может инициализироваться</Translate>
+    <Translate key="##SEE_LOG">Смотрите информацию в логах</Translate>
+    <Translate key="##STARTUP_ERROR">Ошибка запуска</Translate>
+    <Translate key="##ERROR_1">Произошла ошибка: \n{0}</Translate>
+  </Language>
+</Translations>
