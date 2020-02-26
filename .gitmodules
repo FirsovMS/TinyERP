@@ -1,0 +1,3 @@
+[submodule "Library/Shared/Logger"]
+	path = Library/Shared/Logger
+	url = git@github.com:FirsovMS/Logger.git
