@@ -1,14 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using TinyErpWebService.Models.DTO;
 
 namespace TinyErpWebService.Models
 {
-    public class ItemsContext : DbContext
+    public class EmployeeContext : IdentityDbContext<Employee>
     {
-        public DbSet<Item> Items { get; set; }
+        public DbSet<Employee> Employers { get; set; }
 
-        public ItemsContext(DbContextOptions<ItemsContext> options)
-            : base(options)
+        public EmployeeContext(DbContextOptions options) : base(options)
         {
             Database.EnsureCreated();
         }

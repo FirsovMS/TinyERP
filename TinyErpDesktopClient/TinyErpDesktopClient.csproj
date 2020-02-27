@@ -29,7 +29,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Library\Shared\Localization\Localization.csproj" />
     <ProjectReference Include="..\Library\Shared\Logger\Logging.csproj" />
-    <ProjectReference Include="..\Localization\LocalizationAPI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
